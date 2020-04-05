@@ -1,0 +1,38 @@
+[
+    {
+      "id": 1,
+      "name": "Friendango",
+      "description": "Friendango is a social network for movie reviews with charts that analyze the popularity, average scores, and score distributions.",
+      "deployed": "https://friendango.herokuapp.com/",
+      "github": "https://github.com/grlucy/Friendango",
+      "img": "../public/images/friendangocard.png",
+      "imgalt": "Friendango"
+    },
+    {
+        "id": 2,
+        "name": "CarFree",
+        "description": "CarFree allows users to input their destination and receive a hyper-local forecast for the duration of their travel.",
+        "deployed": "https://marykatewhite.github.io/Project1/",
+        "github": "https://github.com/marykatewhite/Project1",
+        "img": "../public/images/carfreecard.png",
+        "imgalt": "CarFree"
+      },
+      {
+        "id": 3,
+        "name": "Eat-Da-Burger",
+        "description": "An app allowing users to compile a list of burgers they hope to eat and which from the list they have eaten using Express Handlebars.",
+        "deployed": "https://marykatewhite.github.io/eatdaburger/",
+        "github": "https://github.com/marykatewhite/eatdaburger",
+        "img": "../public/images/carfreecard.png",
+        "imgalt": "Eat-Da-Burger"
+      },
+      {
+        "id": 4,
+        "name": "Budget Tracker",
+        "description": "The Budget Tracker allows users to to add expenses and deposits to their budget with or without an internet connection.",
+        "deployed": "https://dashboard.heroku.com/apps/mistyswamphollow",
+        "github": "https://github.com/marykatewhite/BudgetTracker",
+        "img": "../public/images/budgetcard.png",
+        "imgalt": "Budget Tracker"
+      }
+  ]
