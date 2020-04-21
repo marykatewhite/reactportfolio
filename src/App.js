@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import Header from "./components/header.js";
 import Footer from "./components/footer.js";
 // import Project from "./components/project.js";
-
+import Jumbotron from "./components/jumbotron.js"
 import projects from "./projects.json";
 import './App.css';
 
@@ -23,6 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
+        <Jumbotron />
         <Footer />
       </div>
     );
