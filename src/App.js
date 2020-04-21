@@ -4,6 +4,7 @@ import Header from "./components/header.js";
 import Footer from "./components/footer.js";
 // import Project from "./components/project.js";
 import Jumbotron from "./components/jumbotron.js"
+import About from "./components/about.js"
 import projects from "./projects.json";
 import './App.css';
 
@@ -24,6 +25,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Jumbotron />
+        <About />
         <Footer />
       </div>
     );
