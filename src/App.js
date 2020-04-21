@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+// import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/header.js";
 import Footer from "./components/footer.js";
-import Project from "./components/project.js";
+// import Project from "./components/project.js";
+
 import projects from "./projects.json";
 import './App.css';
 
@@ -22,18 +24,6 @@ class App extends Component {
       <div className="App">
         <Header />
         <Footer />
-        
-        {this.state.projects.map(project => (
-          <Project
-            id={employee.id}
-            key={employee.id}
-            name={employee.name}
-            role={employee.role}
-            salary={employee.salary}
-            office={employee.office}
-          />
-        ))}
-
       </div>
     );
   }
