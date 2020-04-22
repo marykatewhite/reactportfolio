@@ -91,7 +91,8 @@ a {
     padding-right: 20px;
   }
   .card {
-    width: 100vw;
+    width: 80vw;
+    align-content: center;
   }
 }
 
@@ -105,7 +106,7 @@ a {
     text-align: center;
   }
   .jumbotron-fluid {
-    height: 80vh;
+    height: 100vh;
   }
   #myName {
     font-size: 100px;
