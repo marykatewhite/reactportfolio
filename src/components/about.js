@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import myFace from "./images/vcool.jpg";
+import myFace from "./vcool.jpg";
 
 function About() {
     return (
