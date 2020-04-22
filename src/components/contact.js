@@ -7,7 +7,7 @@ function Contact() {
       <div classname="container-fluid">
         <div classname="row justify-content-center">
           <div classname="col-xs-12 justify-content-center">
-            <h2 id="contactLabel">
+            <h2 id="contactLabel"><br />
               <center>Get in Touch:</center>
             </h2>
           </div>
