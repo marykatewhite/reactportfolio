@@ -1,5 +1,5 @@
 import React from "react";
-import "./style.css";
+import "../App.css";
 import "./images/jumbobg.jpg";
 
 function Jumbotron() {
@@ -18,22 +18,22 @@ function Jumbotron() {
             </div>
             <div className="row justify-content-center">
                 <div className="col-xs-12 col-md-2">
-                    <a href="#aboutMe">
+                    <a href="about">
                         <button type="button" className="btn btn-lg btn-secondary">About.</button>
                     </a>
                 </div>
                 <div className="col-xs-12 col-md-2">
-                    <a href="#projects">
+                    <a href="projects">
                         <button type="button" className="btn btn-lg btn-secondary">Projects.</button>
                     </a>
                 </div>
                 <div className="col-xs-12 col-md-2">
-                    <a href="images/Mary Kate White resume.pdf" target="_blank">
+                    <a href="./importImages/MaryKateWhiteresume.pdf" target="_blank" rel="noopener noreferrer">
                         <button type="button" className="btn btn-lg btn-secondary">Résumé.</button>
                     </a>
                 </div>
                 <div className="col-xs-12 col-md-2">
-                    <a href="#contact">
+                    <a href="contact">
                         <button type="button" className="btn btn-lg btn-secondary">Contact.</button>
                     </a>
                 </div>

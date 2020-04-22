@@ -1,16 +1,15 @@
 import React from "react";
-import "./style.css";
+import "../App.css";
 import myFace from "./images/vcool.jpg";
-import myResume from "./images/MaryKateWhiteresume.pdf";
 
 function About() {
     return (
         <div className="container-fluid" id="aboutMe">
         <div className="row">
-            <div className="col-xs-12 col-md-4">
+            <div className="col-xs-12 col-md-4 offet-md-1">
                 <img src={myFace} id="myFace" alt="Mary Kate White" />
             </div>
-            <div className="col-xs-12 col-md-8">
+            <div className="col-xs-12 col-md-7">
                 <p id="bioText">I am Mary Kate White, a media specialist and team manager with more than 10 years of
                     experience. I have worked as an editor, designer and manager for newspapers, magazines, blogs and
                     marketing departments in China and the United States since 2010.<br /><br />
@@ -18,7 +17,7 @@ function About() {
                     I am currently looking for opportunities to use my expertise in communications, marketing and web
                     development to help businesses grow in English- and Chinese-speaking markets.<br /><br />
                     我目前正在寻找机会，利用我在沟通，营销和网页设计方面的专业知识，帮助企业在英语市场和汉语市场发展<br /><br />
-                    <a href="images/MaryKateWhiteresume.pdf" target="_blank"><b>My resume/我的简历</b></a>
+                    <a href="/resume"><b>My resume/我的简历</b></a>
                 </p>
             </div>
         </div>

@@ -1,19 +1,51 @@
-import React from "react";
+import React, { Component } from "react";
+import "../App.css";
+import projects from "../projects.json";
+import "./images/budgetcard.png";
+import "./images/burgercard.png";
+import "./images/carfreecard.png";
+import "./images/friendangocard.png";
 
-function ProjectCard(props) {
-  return (
-    <div className="card" style="width: 18rem;">
-        <img src={props.img} class="card-img-top" alt={props.altimg}></img>
-        <div class="card-body">
-      <ul>
-        <li>{props.name}</li>
-        <li>{props.description}</li>
-        <li>{props.deployed}</li>
-        <li>{props.github}</li>
-      </ul>
+class Project extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { projects };
+  }
+
+    render () {
+      return this.state.projects.map(project => {
+        const { id, name, img, altimg, description, github, deployed } = project;
+      return (
+      <div key={id} className="container-fluid" id={name}>
+        <div className="row projectrow">
+          <div className="col-xs-12 col-sm-4 offset-md-1">
+            <a
+              href={github}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={process.env.PUBLIC_URL + img} alt={altimg} className="card" />
+            </a>
+          </div>
+          <div className="col-xs-12 col-sm-6">
+            <h4>{name}</h4>
+            <p>
+              {description}
+              <br />
+              <a href={github}>
+                <b>Click here to see the repository.</b>
+              </a>
+              <br />
+              <a href={deployed}>
+                <b>Click here to see it deployed.</b>
+              </a>
+            </p>
+          </div>
+        </div>
       </div>
-    </div>
-  );
+    )
+  })
+}
 }
 
-export default ProjectCard;
+export default Project;
