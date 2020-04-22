@@ -12,8 +12,8 @@
         "id": 2,
         "name": "CarFree",
         "description": "CarFree allows users to input their destination and receive a hyper-local forecast for the duration of their travel.",
-        "deployed": "https://marykatewhite.github.io/Project1/",
-        "github": "https://github.com/marykatewhite/Project1",
+        "deployed": "https://marykatewhite.github.io/CarFree/",
+        "github": "https://github.com/marykatewhite/CarFree",
         "img": "/images/carfreecard.png",
         "imgalt": "CarFree"
       },
