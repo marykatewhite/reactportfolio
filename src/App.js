@@ -4,7 +4,7 @@ import Header from "./components/header.js";
 import Footer from "./components/footer.js";
 import Project from "./components/project.js";
 import Jumbotron from "./components/jumbotron.js";
-import AboutPage from "./pages/about.js";
+import About from "./components/about.js";
 import Contact from "./components/contact.js"
 import Resume from "./components/resume.js";
 import projects from "./projects.json";
@@ -22,7 +22,7 @@ class App extends Component {
         <div className="App">
           <Header />
           <Route exact path="/" component={Jumbotron} />
-          <Route exact path="/about" component={AboutPage} />
+          <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Project} />
           <Route exact path="/contact" component={Contact} />
           <Route exact path="/resume" component={Resume} />

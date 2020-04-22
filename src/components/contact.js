@@ -1,41 +1,54 @@
 import React from "react";
 import "../App.css";
 
-
 function Contact() {
   return (
-    <div classname="container" id="contact">
-      <div classname="row justify-content-center">
-        <div classname="col-xs-12">
-          <h3 classname="sectionLabel">Get in Touch:</h3>
+    <>
+      <div classname="container-fluid">
+        <div classname="row justify-content-center">
+          <div classname="col-xs-12 justify-content-center">
+            <h2 id="contactLabel">
+              <center>Get in Touch:</center>
+            </h2>
+          </div>
         </div>
       </div>
-      <div classname="row justify-content-center iconrow" id="icons">
-        <div classname="col-xs-12 col-sm-2 d-flex justify-content-center">
-          <a href="mailto:marykatewhite@gmail.com">
-            <span id="icon">
-              <i classname="icons fas fa-envelope fa-3x"></i>
-            </span>
-          </a>
-        </div>
-        <div classname="col-xs-12 col-sm-2 d-flex justify-content-center">
-          <a href="https://www.linkedin.com/in/marykatewhite/" target="_blank" rel="noopener noreferrer">
-            <span id="icon">
-              <i classname="icons fab fa-linkedin fa-3x"></i>
-            </span>
-          </a>
-        </div>
-        <div classname="col-xs-12 col-sm-2 d-flex justify-content-center">
-          <a href="https://github.com/marykatewhite" target="_blank" rel="noopener noreferrer">
-            <span id="icon">
-              <i classname="icons fab fa-github fa-3x"></i>
-            </span>
-          </a>
+
+      <div classname="container-fluid" id="contactList">
+        <div classname="row justify-content-center">
+          <div classname="col-xs-12 col-sm-2 d-flex justify-content-center">
+            <a href="mailto:marykatewhite@gmail.com">
+              <h3 className="contactButton">
+                <center>Email.</center>
+              </h3>
+            </a>
+          </div>
+          <div classname="col-xs-12 col-sm-2 d-flex justify-content-center">
+            <a
+              href="https://www.linkedin.com/in/marykatewhite/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3 className="contactButton">
+                <center>LinkedIn.</center>
+              </h3>
+            </a>
+          </div>
+          <div classname="col-xs-12 col-sm-2 d-flex justify-content-center">
+            <a
+              href="https://github.com/marykatewhite"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <h3>
+                <center className="contactButton">Github.</center>
+              </h3>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
-
 
 export default Contact;
