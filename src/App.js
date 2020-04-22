@@ -9,7 +9,7 @@ import Contact from "./components/contact.js"
 import Resume from "./components/resume.js";
 import projects from "./projects.json";
 import "./App.css";
-import "./components/images/MaryKateWhiteresume.pdf";
+import "./components/images/vcool.jpg";
 
 class App extends Component {
   state = {
