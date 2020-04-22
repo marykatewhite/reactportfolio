@@ -1,13 +1,13 @@
 import React from "react";
 import "../App.css";
-import myFace from "/images/vcool.jpg";
+import myFace from "./images/vcool.jpg";
 
 function About() {
     return (
         <div className="container-fluid" id="aboutMe">
         <div className="row">
             <div className="col-xs-12 col-md-4 offet-md-1">
-                {myFace}
+            <img src={myFace} id="myFace" alt="Mary Kate White" />
             </div>
             <div className="col-xs-12 col-md-7">
                 <p id="bioText">I am Mary Kate White, a media specialist and team manager with more than 10 years of
