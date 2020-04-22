@@ -63,10 +63,6 @@ a {
   background-color: #9c9c9c;
 }
 
-.card {
-  width: 20vw;
-}
-
 .projectrow {
   padding-bottom: 10px;
 
@@ -94,6 +90,9 @@ a {
     padding-left: 20px;
     padding-right: 20px;
   }
+  .card {
+    width: 100vw;
+  }
 }
 
 @media (min-width: 501px) {
@@ -113,5 +112,8 @@ a {
     line-height: 90px;
     padding-top: 200px;
     padding-bottom: 30px;
+  }
+  .card {
+    width: 20vw;
   }
 }
