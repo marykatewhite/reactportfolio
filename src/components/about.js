@@ -7,7 +7,7 @@ function About() {
         <div className="container-fluid" id="aboutMe">
         <div className="row">
             <div className="col-xs-12 col-md-4 offet-md-1">
-                <img src={myFace} id="myFace" alt="Mary Kate White" />
+                {myFace}
             </div>
             <div className="col-xs-12 col-md-7">
                 <p id="bioText">I am Mary Kate White, a media specialist and team manager with more than 10 years of
