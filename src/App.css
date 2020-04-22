@@ -63,63 +63,8 @@ a {
   background-color: #9c9c9c;
 }
 
-#friendango {
-  background-color: #9c9c9c;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-#friendangoimg {
-  width: 100%;
-  height: auto;
-}
-
-#carfree {
-  background-color: #d4d4d4;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-#carfreeimg {
-  width: 100%;
-  height: auto;
-}
-
-#burgertracker {
-  background-color: #b0b0b0;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-#burgerimg {
-  width: 100%;
-  height: auto;
-}
-
-#dayplanner {
-  background-color: #d4d4d4;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-#dayplannerimg {
-  width: 100%;
-  height: auto;
-}
-
-#passwordgenerator {
-  background-color: #9c9c9c;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-#passwordgeneratorimg {
-  width: 100%;
-  height: auto;
-}
-
 .card {
-  width: 30vw;
+  width: 20vw;
 }
 
 .projectrow {

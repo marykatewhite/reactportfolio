@@ -18,7 +18,7 @@ class Project extends Component {
       return (
       <div key={id} className="container-fluid" id={name}>
         <div className="row projectrow">
-          <div className="col-xs-12 col-sm-4 offset-md-1">
+          <div className="col-xs-12 col-md-3 offset-md-2">
             <a
               href={github}
               target="_blank"
@@ -27,7 +27,7 @@ class Project extends Component {
               <img src={process.env.PUBLIC_URL + img} alt={altimg} className="card" />
             </a>
           </div>
-          <div className="col-xs-12 col-sm-6">
+          <div className="col-xs-12 col-md-6">
             <h4>{name}</h4>
             <p>
               {description}

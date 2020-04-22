@@ -28,7 +28,7 @@ function Jumbotron() {
                     </a>
                 </div>
                 <div className="col-xs-12 col-md-2">
-                    <a href="./importImages/MaryKateWhiteresume.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="resume" target="_blank" rel="noopener noreferrer">
                         <button type="button" className="btn btn-lg btn-secondary">Résumé.</button>
                     </a>
                 </div>
