@@ -136,7 +136,7 @@ a {
     text-align: center;
   }
   .jumbotron-fluid {
-    height: 800px;
+    height: 100vh;
   }
   #myName {
     font-size: 100px;
@@ -160,7 +160,7 @@ a {
     text-align: center;
   }
   .jumbotron-fluid {
-    height: 550px;
+    height: 100vh;
   }
   #myName {
     font-size: 100px;
