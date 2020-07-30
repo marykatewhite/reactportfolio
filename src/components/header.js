@@ -18,13 +18,8 @@ function Header() {
       <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
           <li className="nav-item">
-            <a className="nav-link" href="/about">
-              About
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/projects">
-              Projects
+            <a className="nav-link" href="/code">
+              Code
             </a>
           </li>
           <li className="nav-item">
@@ -35,11 +30,6 @@ function Header() {
           <li className="nav-item">
             <a className="nav-link" href="/writing">
               Writing
-            </a>
-          </li>
-          <li className="nav-item">
-            <a className="nav-link" href="/content">
-              Content
             </a>
           </li>
           <li className="nav-item">
