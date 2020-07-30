@@ -9,7 +9,7 @@ function Resume() {
         <div className="col-xs-12 col-sm-7 offset-md-1">
           <h2>Experience:</h2>
           <h4>
-            2019: Office Assistant at Virginia Dare Marina
+            2019: Office Manager at Virginia Dare Marina
             <br />
             in Moneta, Virginia
           </h4>

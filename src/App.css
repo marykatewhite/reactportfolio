@@ -19,9 +19,12 @@ button {
 }
 
 h4,
-h3,
-a {
+h3 {
   color: gray;
+}
+
+a {
+  color: black;
 }
 
 .sectionLabel {
@@ -36,15 +39,14 @@ a {
 }
 
 #introText {
-  padding-top: 10px;
-  padding-bottom: 30px;
-  font-size: 20px;
+  font-size: 1em;
+  text-align: center;
 }
 
 #bioText {
   color: #3c3c3d;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 20px;
 }
 
 #myFace {
@@ -65,15 +67,64 @@ a {
 
 .projectrow {
   padding-bottom: 10px;
+}
 
+/* CONTENT PAGE STYLES */
+#contentTypeBox {
+  background-image: url("./components/images/jumbobg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#contentTypes {
+  background-image: url("./components/images/jumbobg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+  margin: auto;
+  justify-items: center;
+  justify-content: center;
+}
+
+.contentImgBox {
+  height: 70vh;
+  display: block;
+  margin: auto;
+  justify-items: center;
+  justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 10vh;
+}
+
+#programmingBox {
+  background-image: url("./components/images/programmingbg.png");
+}
+#designBox {
+  background-image: url("./components/images/designbg.png");
+}
+
+#writingBox {
+  background-image: url("./components/images/writingbg.png");
+}
+
+.contentTitle {
+  padding-top: 3vh;
+  width: 100%;  
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
 }
 
 @media (max-width: 500px) {
   #introBox {
-    background-image: url("./components/images/jumbobg.jpg");
+    width: 90vw;
+    height: 100vh;
+    background-image: url("./components/images/codeandcontentmobile.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: top;
     text-align: center;
   }
@@ -81,38 +132,131 @@ a {
     height: 100vh;
   }
   #myName {
-    font-size: 100px;
-    line-height: 90px;
-    padding-top: 75px;
-    padding-bottom: 50px;
+    font-size: 3em;
+    padding-top: 15px;
+    padding-bottom: 10px;
   }
-  #bioText {
-    padding-left: 20px;
-    padding-right: 20px;
+  #introText {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  #codeAndContent {
+    width: 90vw;
+    clear: both;
+    margin: auto;
+    text-align: center;
+  }
+  #codeBox {
+    width: 90vw;
+    display: block;
+    margin: auto;
+  }
+  #codeWord {
+    width: 90vw;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 4em;
+  }
+  #andBox {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: auto;
+    background-image: url("./components/images/codeandcontentphone.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  #andWord {
+    color: #ffffff;
+    font-size: 20em;
+    text-shadow: 1px 1px 10px black;
+  }
+  #contentBox {
+    width: 90vw;
+    display: block;
+    margin: auto;
+  }
+  #contentWord {
+    width: 90vw;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    padding-top: 10px;
   }
   .card {
     width: 80vw;
     align-content: center;
   }
+  .contentImgBox {
+    width: 90vw;
+    margin-bottom: 5vh;
+  }
+  .contentTitleBox {
+    width: 90vw;
+    text-align: center;
+  }
 }
 
 @media (min-width: 501px) {
   #introBox {
-    background-image: url("./components/images/jumbobg.jpg");
+    background-image: url("./components/images/codeandcontentbisect.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: top;
-    text-align: center;
+    background-position: bottom;
   }
   .jumbotron-fluid {
-    height: 100vh;
+    height: 120vh;
   }
   #myName {
-    font-size: 100px;
-    line-height: 90px;
-    padding-top: 200px;
-    padding-bottom: 30px;
+    font-size: 5em;
+    padding-top: 20px;
+  }
+  #codeAndContent {
+    clear: both;
+    text-align: center;
+  }
+  #codeBox {
+    display: block;
+    margin: auto;
+  }
+  #codeWord {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 6em;
+  }
+  #andBox {
+    display: block;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    background-image: url("./components/images/codeandcontentcomputer.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  #andWord {
+    color: #ffffff;
+    font-size: 20em;
+    text-shadow: 1px 1px 10px black;
+  }
+  #contentBox {
+    margin: auto;
+    width: 80%;
+    padding-bottom: 20px;
+  }
+  #contentWord {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 6em;
+  }
+  .contentTitleBox {
+    width: 100%;
+    text-align: center;
   }
   .card {
     width: 20vw;

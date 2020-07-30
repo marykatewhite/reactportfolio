@@ -1,38 +1,38 @@
 [
-    {
-      "id": 1,
-      "name": "Friendango",
-      "description": "Friendango is a social network for movie reviews with charts that analyze the popularity, average scores, and score distributions.",
-      "deployed": "https://friendango.herokuapp.com/",
-      "github": "https://github.com/grlucy/Friendango",
-      "img": "/images/friendangocard.png",
-      "imgalt": "Friendango"
-    },
-    {
-        "id": 2,
-        "name": "CarFree",
-        "description": "CarFree allows users to input their destination and receive a hyper-local forecast for the duration of their travel.",
-        "deployed": "https://marykatewhite.github.io/CarFree/",
-        "github": "https://github.com/marykatewhite/CarFree",
-        "img": "/images/carfreecard.png",
-        "imgalt": "CarFree"
-      },
-      {
-        "id": 3,
-        "name": "Eat-Da-Burger",
-        "description": "An app allowing users to compile a list of burgers they hope to eat and which from the list they have eaten using Express Handlebars.",
-        "deployed": "https://marykatewhite.github.io/eatdaburger/",
-        "github": "https://github.com/marykatewhite/eatdaburger",
-        "img": "/images/burgercard.png",
-        "imgalt": "Eat-Da-Burger"
-      },
-      {
-        "id": 4,
-        "name": "Budget Tracker",
-        "description": "The Budget Tracker allows users to to add expenses and deposits to their budget with or without an internet connection.",
-        "deployed": "https://dashboard.heroku.com/apps/mistyswamphollow",
-        "github": "https://github.com/marykatewhite/BudgetTracker",
-        "img": "/images/budgetcard.png",
-        "imgalt": "Budget Tracker"
-      }
-  ]
+  {
+    "id": 1,
+    "name": "Roll Call",
+    "description": "Roll Call keeps track of students' locations and responsible caregivers throughout their day.",
+    "deployed": "https://dashboard.heroku.com/apps/majozakidtracker",
+    "github": "https://github.com/marykatewhite/kidtracker",
+    "img": "/images/rollcallcard.png",
+    "imgalt": "Roll Call"
+  },
+  {
+    "id": 3,
+    "name": "CarFree",
+    "description": "CarFree allows users to input their destination and receive a hyper-local forecast for the duration of their travel.",
+    "deployed": "https://marykatewhite.github.io/CarFree/",
+    "github": "https://github.com/marykatewhite/CarFree",
+    "img": "/images/carfreecard.png",
+    "imgalt": "CarFree"
+  },
+  {
+    "id": 2,
+    "name": "Friendango",
+    "description": "Friendango is a social network for movie reviews with charts that analyze the popularity, average scores, and score distributions.",
+    "deployed": "https://friendango.herokuapp.com/",
+    "github": "https://github.com/grlucy/Friendango",
+    "img": "/images/friendangocard.png",
+    "imgalt": "Friendango"
+  },
+  {
+    "id": 4,
+    "name": "Eat-Da-Burger",
+    "description": "An app allowing users to compile a list of burgers they hope to eat and which from the list they have eaten using Express Handlebars.",
+    "deployed": "https://marykatewhite.github.io/eatdaburger/",
+    "github": "https://github.com/marykatewhite/eatdaburger",
+    "img": "/images/burgercard.png",
+    "imgalt": "Eat-Da-Burger"
+  }
+]

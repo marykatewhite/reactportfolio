@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "name": "Sculpture Total Skincare",
+      "description": "A simple and sleek Squarespace website built for a local skincare boutique. I totally overhauled their 23-year-old website and branding, incorporating a new logo,  new graphics, new color scheme and new technologies (including location and contact features). I only wish I had saved some 'before' pictures so you could appreciate the glow-up.",
+      "externallink": "https://www.sculpturetotalskincare.com",
+      "img": "/images/design/designsculpture.png",
+      "imgalt": "Sculpture Total Skincare"
+    },
+    {
+        "id": 2,
+        "name": "The Staunton News-Leader",
+        "description": "Proof of my time spent as an editor and designer at USA Today's Design Studio in Nashville. I worked with reporters, editors and photographers in Virginia remotely through the company's in-house content management system to build, proof and publish newspapers and special sections on daily deadlines. My team routinely won awards from the Virginia Press Association for our superior designs (not including this one).",
+        "externallink": "https://github.com/marykatewhite/CarFree",
+        "img": "/images/design/designstaunton.png",
+        "imgalt": "The Staunton News-Leader"
+      },
+      {
+        "id": 3,
+        "name": "Virginia Dare Cruises",
+        "description": "My most recent and probably most fun job: designing, producing and managing promotional materials for a dinner cruise boat and marina on Smith Mountain Lake.A lion's share of our marketing happens through social media (primarily Facebook), so I make a lot of big, colorful, eye-catching digital flyers and corresponding graphics for our website and booking software.",
+        "externallink": "https://www.facebook.com/vadarecruiseboat/",
+        "img": "/images/design/designtacocruise.png",
+        "imgalt": "Virginia Dare Cruises"
+      },
+      {
+        "id": 4,
+        "name": "Riptide Comedy Festival",
+        "description": "A program booklet for the 2016 Riptide Comedy Festival in Lawrence, Kansas. I was tasked with taking many different event flyers in varying styles and building them into one informative, consistent guide to the weekend's times and places, including maps of the city's downtown and venues' addresses.",
+        "externallink": "https://github.com/marykatewhite/eatdaburger",
+        "img": "/images/design/designriptide.png",
+        "imgalt": "Riptide Comedy Festival"
+      },
+      {
+        "id": 5,
+        "name": "PharmaDisplay Catalog",
+        "description": "A catalog and parts guide for a European pharmaceutical and retail furniture manufacturer in China. I worked with the factory owners to conceptualize all the materials they needed for marketing in English-speaking markets, including logos and branding, all catalog images and copy, a website and letters of introduction to potential buyers.",
+        "externallink": "https://issuu.com/marykatewhite/docs/pharmadisplaycatalogue",
+        "img": "/images/design/designpharmadisplay.png",
+        "imgalt": "PharmaDisplay"
+      },
+      {
+        "id": 6,
+        "name": "The Ghosts of the Bear Paws",
+        "description": "Included mostly due to sentimental value: I had the privilege of stepping in as photo editor at the Havre Daily-News in Havre, Montana, in 2012. This story was fun to write, the photos were fun to take, and the discovery of the old photo of Robert Felton and his sons outside the now dilapidated cabin was magical. Good times.",
+        "externallink": "https://github.com/marykatewhite/BudgetTracker",
+        "img": "/images/design/designbearpaws.png",
+        "imgalt": "Ghosts of the Bear Paws"
+      }
+  ]

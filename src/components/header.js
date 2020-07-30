@@ -28,6 +28,21 @@ function Header() {
             </a>
           </li>
           <li className="nav-item">
+            <a className="nav-link" href="/design">
+              Design
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/writing">
+              Writing
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="/content">
+              Content
+            </a>
+          </li>
+          <li className="nav-item">
             <a className="nav-link" href="/resume">
               Résumé
             </a>
