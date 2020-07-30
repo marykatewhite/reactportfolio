@@ -7,48 +7,42 @@ button {
   margin-left: 20px;
   margin-right: 20px;
 }
-
 .contactButton {
   align-content: center;
   padding-top: 40px;
 }
-
 .iconrow {
   padding-top: 20px;
   padding-bottom: 30px;
 }
-
 h4,
 h3 {
   color: gray;
 }
-
 a {
   color: black;
 }
-
 .sectionLabel {
   align-content: center;
 }
-
 #aboutMe {
   background-color: #d7d7d7;
   height: 100vh;
   padding-top: 50px;
   padding-bottom: 30px;
 }
-
 #introText {
   font-size: 1em;
   text-align: center;
 }
-
+#bioBox {
+  margin: 0;
+}
 #bioText {
   color: #3c3c3d;
   font-size: 18px;
   line-height: 20px;
 }
-
 #myFace {
   width: 80%;
   height: auto;
@@ -56,15 +50,12 @@ a {
   display: block;
   padding-bottom: 20px;
 }
-
 .icons {
   padding: 20px;
 }
-
 #projects {
   background-color: #9c9c9c;
 }
-
 .projectrow {
   padding-bottom: 10px;
 }
@@ -76,7 +67,6 @@ a {
   background-position: center;
   background-attachment: fixed;
 }
-
 #contentTypes {
   background-image: url("./components/images/jumbobg.jpg");
   background-size: cover;
@@ -87,9 +77,8 @@ a {
   justify-items: center;
   justify-content: center;
 }
-
 .contentImgBox {
-  height: 70vh;
+  height: 60vh;
   display: block;
   margin: auto;
   justify-items: center;
@@ -97,7 +86,7 @@ a {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  padding-bottom: 10vh;
+
 }
 
 #programmingBox {
@@ -106,16 +95,8 @@ a {
 #designBox {
   background-image: url("./components/images/designbg.png");
 }
-
 #writingBox {
   background-image: url("./components/images/writingbg.png");
-}
-
-.contentTitle {
-  padding-top: 3vh;
-  width: 100%;  
-  font-family: "Raleway", sans-serif;
-  font-size: 40px;
 }
 
 @media (max-width: 500px) {
@@ -134,11 +115,11 @@ a {
   #myName {
     font-size: 3em;
     padding-top: 15px;
-    padding-bottom: 10px;
   }
   #introText {
-    padding-left: 40px;
-    padding-right: 40px;
+    font-size: 1.5em;
+    padding-left: 30px;
+    padding-right: 30px;
   }
   #codeAndContent {
     width: 90vw;
@@ -190,6 +171,9 @@ a {
     width: 80vw;
     align-content: center;
   }
+  .contentColumn {
+    width: 90vw;
+  }
   .contentImgBox {
     width: 90vw;
     margin-bottom: 5vh;
@@ -197,6 +181,14 @@ a {
   .contentTitleBox {
     width: 90vw;
     text-align: center;
+  }
+  .contentTitle {  
+    font-family: "Raleway", sans-serif;
+    font-size: 2em;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
   }
 }
 
@@ -211,8 +203,11 @@ a {
     height: 120vh;
   }
   #myName {
-    font-size: 5em;
+    font-size: 6em;
     padding-top: 20px;
+  }
+  #introText {
+    font-size: 1.5em;
   }
   #codeAndContent {
     clear: both;
@@ -254,9 +249,19 @@ a {
     color: white;
     font-size: 6em;
   }
+  .contentColumn {
+    width: 30vw;
+  }
   .contentTitleBox {
     width: 100%;
     text-align: center;
+  }
+  .contentTitle {  
+    font-family: "Raleway", sans-serif;
+    font-size: 2em;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .card {
     width: 20vw;
