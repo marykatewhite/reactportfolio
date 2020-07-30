@@ -9,28 +9,30 @@ function Resume() {
         <div className="col-xs-12 col-sm-7 offset-md-1">
           <h2>Experience:</h2>
           <h4>
-            2019: Office Manager at Virginia Dare Marina
+            2019 - present:<br />
+            Office Manager at Virginia Dare Marina
             <br />
             in Moneta, Virginia
           </h4>
           <ul>
             <li>
-              Handled marketing and communication via phone, email and social
+              Handle marketing and communications for marina and adjacent eateries
             </li>
             <li>
-              Managed cruise ship’s guests, staff, supplies and scheduling
+              Manage cruise ship and marina's guests, staff, supplies and scheduling
             </li>
             <li>
-              Designed and produced promotional material for digital channels
+              Design and produce promotional materials for website and social media
             </li>
             <li>
-              Drew up, processed and filed contracts and company paperwork
+              Draw up, process and file contracts and company paperwork
             </li>
           </ul>
           <br />
 
           <h4>
-            2018 - 2019: Editor at The Franklin News-Post
+            2018 - 2019:<br />
+            Editor at The Franklin News-Post
             <br />
             in Rocky Mount, Virginia
           </h4>
@@ -45,7 +47,8 @@ function Resume() {
           <br />
 
           <h4>
-            2016 - 2018: Editor at China Daily and The Beijinger
+            2016 - 2018:<br />
+            Editor at China Daily and The Beijinger
             <br />
             in Beijing, China
           </h4>
@@ -66,7 +69,8 @@ function Resume() {
           <br />
 
           <h4>
-            2015 - 2016: Marketing Consultant
+            2015 - 2016:<br />
+            Marketing Consultant
             <br />
             in Luoyang, China
           </h4>
