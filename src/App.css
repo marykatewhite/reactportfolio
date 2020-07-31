@@ -65,12 +65,7 @@ a {
 .projectrow {
   padding-bottom: 10px;
 }
-.whiteSheet {
-  padding-left: 30px;
-  padding-right: 30px;
-  background-color: white;
-  opacity: 70%;
-}
+
 .writingBox {
   width: 80vw;
 }
