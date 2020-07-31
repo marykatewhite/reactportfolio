@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+import Content from "./components/content";
 import Header from "./components/header.js";
 import Contact from "./components/contact.js"
 import Resume from "./components/resume.js";
