@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import "../App.css";
 import designs from "../designs.json";
+import M from "materialize-css";
+import "../App.css";
 
 class Design extends Component {
   constructor(props) {
@@ -8,12 +9,16 @@ class Design extends Component {
     this.state = { designs };
   }
 
+  componentDidMount() {
+    M.AutoInit();
+  }
+  // let instance = M.Carousel.getInstance(elem);
+
   render() {
     return this.state.designs.map(design => {
-      const { id, name, img, altimg, description, externallink } = design;
+      const { id, name, altimg, img, description, externallink } = design;
       return (
-        <div key={id} className="container-fluid" id={name}>
-            <div className="row projectrow">
+            <div className="row projectrow" key={id} id={name}>
             <div className="col-xs-12 col-md-3 offset-md-2">
               <a href={externallink} target="_blank" rel="noopener noreferrer">
                 <img
@@ -28,14 +33,12 @@ class Design extends Component {
               <p>
                 {description}
                 <br />
-              </p>
-              
+              </p> 
             </div>
           </div>
-        </div>
       );
     });
   }
-}
+  }
 
 export default Design;

@@ -1,3 +1,9 @@
+body {
+  background-image: url("./components/images/jumbobg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
 p {
   color: #3c3c3d;
   font-size: 18px;
@@ -59,6 +65,15 @@ a {
 .projectrow {
   padding-bottom: 10px;
 }
+.whiteSheet {
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+  opacity: 70%;
+}
+.writingBox {
+  width: 80vw;
+}
 
 /* CONTENT PAGE STYLES */
 #contentTypeBox {
@@ -67,6 +82,7 @@ a {
   background-position: center;
   background-attachment: fixed;
 }
+
 #contentTypes {
   background-image: url("./components/images/jumbobg.jpg");
   background-size: cover;
@@ -78,7 +94,7 @@ a {
   justify-content: center;
 }
 .contentImgBox {
-  height: 60vh;
+  height: 70vh;
   display: block;
   margin: auto;
   justify-items: center;
@@ -87,6 +103,18 @@ a {
   background-repeat: no-repeat;
   background-position: center;
 
+}
+
+.writingTitle {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 30px;
+}
+
+.writingSource {
+  font-family: "Raleway", sans-serif;
+  color: black;
+  font-size: 24px;
 }
 
 #programmingBox {
@@ -99,6 +127,19 @@ a {
   background-image: url("./components/images/writingbg.png");
 }
 
+/* CONTENT STYLES */
+.carouselContentTitle {
+  font-family: "Raleway", sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 5em;
+}
+.carouselIntroText {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+
 @media (max-width: 500px) {
   #introBox {
     width: 90vw;
@@ -110,7 +151,7 @@ a {
     text-align: center;
   }
   .jumbotron-fluid {
-    height: 100vh;
+    height: 100%;
   }
   #myName {
     font-size: 3em;
@@ -200,7 +241,7 @@ a {
     background-position: bottom;
   }
   .jumbotron-fluid {
-    height: 120vh;
+    height: 100%;
   }
   #myName {
     font-size: 6em;

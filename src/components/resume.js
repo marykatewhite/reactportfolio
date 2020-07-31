@@ -6,7 +6,7 @@ function Resume() {
   return (
     <div className="container-fluid" id="resume">
       <div className="row">
-        <div className="col-xs-12 col-sm-7 offset-md-1">
+        <div className="col-xs-12 col-sm-7 offset-md-1 whiteSheet">
           <h2>Experience:</h2>
           <h4>
             2019 - present:<br />
@@ -88,6 +88,9 @@ function Resume() {
           <br />
         </div>
         <div className="col-xs-12 col-sm-3">
+        {/* <a href={process.env.PUBLIC_URL + "/resume"} 
+        target="_blank" 
+        rel="noopener noreferrer"><p>Click here to view and download my resume as a PDF.</p></a> */}
           <h2>Skills:</h2>
           <p>
             HTML and CSS<br />

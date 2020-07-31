@@ -10,13 +10,14 @@ class Writing extends Component {
 
   render() {
     return this.state.writings.map(writing => {
-      const { id, name, description, externallink } = writing;
+      const { id, name, source, description, externallink } = writing;
       return (
         <div key={id} className="container-fluid" id={name}>
             <div className="row projectrow">
 
-            <div className="col-xs-12 col-md-8 offset-md-2">
-              <a href={externallink} target="_blank" rel="noopener noreferrer"><h4>{name}</h4></a>
+            <div className="col-xs-8 offset-md-1 whiteSheet writingBox">
+              <a href={externallink} target="_blank" rel="noopener noreferrer" className="writingTitle">{name}</a><br/>
+              <a href={externallink} target="_blank" rel="noopener noreferrer" className="writingSource">{source}</a>
               <p>
                 {description}
                 <br />

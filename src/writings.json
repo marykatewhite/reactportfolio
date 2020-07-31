@@ -1,49 +1,57 @@
 [
   {
     "id": 1,
-    "name": "Tech Upgrades for Rocky Mount (The Franklin News-Post)",
+    "name": "Tech Upgrades for Rocky Mount",
+    "source": "(The Franklin News-Post)",
     "description": "Coverage of major decisions made during a town council meeting in Rocky Mount, Virginia.",
     "externallink": "https://thefranklinnewspost.com/news/council-moves-on-two-tech-upgrades-for-rocky-mount/article_b68a3db8-ccb2-11e8-96de-7390eeb6883e.html"
   },
   {
     "id": 2,
-    "name": "Local author releases book of poetry (The Franklin News-Post)",
+    "name": "Local author releases book of poetry",
+    "source": "(The Franklin News-Post)",
     "description": "A profile on a local author who writes poetry about Smith Mountain Lake.",
     "externallink": "https://thefranklinnewspost.com/news/local-author-releases-new-book-of-poetry/article_73e1826c-65da-11e8-bd86-6735115d316b.html"
   },
     {
     "id": 3,
-    "name": "Where is our corn palace? (The Franklin News-Post)",
+    "name": "Where is our corn palace?",
+    "source": "(The Franklin News-Post)",
     "description": "An editorial in which I argue that the local high school should host its prom in the town's performance center.",
     "externallink": "https://thefranklinnewspost.com/opinion/editorials/where-is-our-corn-palace/article_618fb400-a25a-11e8-ba99-679692921b17.html"
   },
   {
     "id": 4,
-    "name": "Beijing Pizza Cup (The Beijinger)",
+    "name": "The Beijing Pizza Cup",
+    "source": "(The Beijinger)",
     "description": "Some of the best days of my life: being paid to eat pizza in Beijing and write about why it deserves an award.",
     "externallink": "https://www.thebeijinger.com/blog/2017/10/13/deep-dish-tube-station-anything-underground-will-stop-nothing"
   },
   {
     "id": 5,
-    "name": "Throwback Thursday: A Throwback to a Throwback (The Beijinger)",
+    "name": "Throwback Thursday: A Throwback to a Throwback",
+    "source": "(The Beijinger)",
     "description": "Part of a weekly series in which we write about our old writing at The Beijinger. The blog is very informal, and thus so is my voice.",
     "externallink": "https://www.thebeijinger.com/blog/2017/10/12/throwback-thursday-throwback-throwback-when-we-spoke-historian"
   },
   {
     "id": 6,
-    "name": "Virginia Dare Cruises (social media marketing copy)",
+    "name": "social media marketing copy",
+    "source": "(Virginia Dare Cruises)",
     "description": "Short, snappy, conversational posts on Facebook to encourage conversation and, more importantly, purchases.",
     "externallink": "https://www.facebook.com/vadarecruiseboat/"
   },
   {
     "id": 8,
-    "name": "The Ambassador of downtown Harrisonburg (The Breeze)",
+    "name": "The Ambassador of downtown Harrisonburg",
+    "source": "(The Breeze)",
     "description": "A profile of a young music lover with Williams Syndrome in Harrisonburg, Virginia.<br />This story won an award for feature writing from the Virginia Press Association.",
     "externallink": "https://www.breezejmu.org/life/meet-downtown-harrisonburgs-music-ambassador/article_e0799740-18df-11e3-a38a-001a4bcf6878.html"
   },
   {
     "id": 8,
-    "name": "The Ghosts of the Bear Paws (The Havre Daily News)",
+    "name": "The Ghosts of the Bear Paws",
+    "source": "(The Havre Daily News)",
     "description": "A fun little feature on a disappearing community in the foothills of northern Montana.",
     "externallink": "https://marykatewhite.files.wordpress.com/2016/05/bearpaw_full.jpg"
   }

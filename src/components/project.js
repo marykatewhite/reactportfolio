@@ -27,7 +27,7 @@ class Project extends Component {
               <img src={process.env.PUBLIC_URL + img} alt={altimg} className="card" />
             </a>
           </div>
-          <div className="col-xs-12 col-md-6">
+          <div className="col-xs-12 col-md-5">
             <h4>{name}</h4>
             <p>
               {description}
