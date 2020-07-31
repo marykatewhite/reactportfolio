@@ -28,7 +28,7 @@ class CodePage extends Component {
 
         <div className="container-fluid" id="bioBox">
           <div className="row justify-content-center">
-            <div className="col-xs-12 col-m-6 offset-md-3">
+            <div className="col-xs-12 col-m-8 offset-md-2">
               <p className="carouselIntroText">
                 All of these projects were built in a week, outside of my 40-hour work week and 10 hours of class time. They're not the best, but I learned a great deal and built them quickly.
                 <br />
