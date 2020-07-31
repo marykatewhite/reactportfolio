@@ -30,11 +30,9 @@ class CodePage extends Component {
           <div className="row justify-content-center">
             <div className="col-xs-12 col-m-8">
               <p className="carouselIntroText">
-                A few examples of my work with graphic design and layout in both
-                print and digital formats.
+                All of these projects were built in a week, outside of my 40-hour work week and 10 hours of class time. They're not the best, but I learned a great deal and built them quickly.
                 <br />
-                <b>What I hope it demonstrates:</b> my versatility and fluency
-                with Adobe Creative Suite.
+                <b>What I hope it demonstrates:</b> my understanding of full-stack fundamentals and ability to learn and work quickly.
               </p>
             </div>
           </div>
