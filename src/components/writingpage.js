@@ -28,9 +28,10 @@ class WritingPage extends Component {
 
         <div className="container-fluid" id="bioBox">
           <div className="row justify-content-center">
-            <div className="col-xs-12 col-m-8">
+            <div className="col-xs-12 col-m-6">
               <p className="carouselIntroText">
-                I have worked as an editor - not a reporter - for 10 years. As a result, my bylines are few. But I have been helping craft clearer, more concise, and more accurate stories that whole time. Below are a few pieces I wrote myself.
+                I have worked as an editor - not a reporter - for 10 years. As a result, my bylines are few. But I have been helping craft clearer, <br />
+                more concise, and more accurate stories that whole time. Below are a few pieces published under my own name.
                 <br />
                 <b>What I hope it demonstrates:</b> my ability to adapt to different businesses' respective voices and editorial processes.
               </p>

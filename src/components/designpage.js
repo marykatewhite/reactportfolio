@@ -28,7 +28,7 @@ class DesignPage extends Component {
 
         <div className="container-fluid" id="bioBox">
           <div className="row justify-content-center">
-            <div className="col-xs-12 col-m-8">
+            <div className="col-xs-12 col-m-6">
               <p className="carouselIntroText">
                 A few examples of my work with graphic design and layout in both
                 print and digital formats.
