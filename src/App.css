@@ -28,6 +28,11 @@ h3 {
 a {
   color: black;
 }
+a:hover {
+  font-size: 130%;
+  background-image: none !important;
+  text-decoration: none !important;
+}
 .sectionLabel {
   align-content: center;
 }
@@ -221,6 +226,14 @@ a {
   .contentTitle {  
     font-family: "Raleway", sans-serif;
     font-size: 2em;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    vertical-align: top;
+  }
+  .contentColumn:hover {
+    font-family: "Raleway", sans-serif;
+    font-size: 3em;
     color: black;
     padding-left: 10px;
     padding-right: 10px;
