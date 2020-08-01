@@ -1,12 +1,15 @@
-import React from "react";
+import React, { Component } from "react";
 import "../App.css";
 import "./images/MaryKateWhiteresume.pdf";
 
-function Resume() {
+class Resume extends Component {
+  
+  render () {
+
   return (
     <div className="container-fluid" id="resume">
       <div className="row">
-        <div className="col-xs-12 col-sm-7 offset-md-1 whiteSheet">
+        <div className="col-xs-12 col-sm-7 offset-md-1">
           <h2>Experience:</h2>
           <h4>
             2019 - present:<br />
@@ -88,6 +91,8 @@ function Resume() {
           <br />
         </div>
         <div className="col-xs-12 col-sm-3">
+          <a href="./images/MaryKateWhiteresume.pdf" target="_blank" rel="noopener noreferrer"><h5>Click here to view and download my resume as a PDF.</h5></a>
+        <img class="materialboxed" width="650" src="images/MaryKateWhiteresume.pdf" alt="My resume" />
         {/* <a href={process.env.PUBLIC_URL + "/resume"} 
         target="_blank" 
         rel="noopener noreferrer"><p>Click here to view and download my resume as a PDF.</p></a> */}
@@ -122,6 +127,7 @@ function Resume() {
       </div>
     </div>
   );
+}
 }
 
 export default Resume;

@@ -5,7 +5,7 @@
     "description": "Roll Call keeps track of students' locations and responsible caregivers throughout their day.",
     "deployed": "https://dashboard.heroku.com/apps/majozakidtracker",
     "github": "https://github.com/marykatewhite/kidtracker",
-    "img": "/images/rollcallcard.png",
+    "img": "/images/rollcallsquare.png",
     "imgalt": "Roll Call"
   },
   {
@@ -14,7 +14,7 @@
     "description": "CarFree allows users to input their destination and receive a hyper-local forecast for the duration of their travel.",
     "deployed": "https://marykatewhite.github.io/CarFree/",
     "github": "https://github.com/marykatewhite/CarFree",
-    "img": "/images/carfreecard.png",
+    "img": "/images/carfreesquare.png",
     "imgalt": "CarFree"
   },
   {
@@ -23,16 +23,16 @@
     "description": "Friendango is a social network for movie reviews with charts that analyze the popularity, average scores, and score distributions.",
     "deployed": "https://friendango.herokuapp.com/",
     "github": "https://github.com/grlucy/Friendango",
-    "img": "/images/friendangocard.png",
+    "img": "/images/friendangosquare.png",
     "imgalt": "Friendango"
   },
   {
     "id": 4,
     "name": "Eat-Da-Burger",
     "description": "An app allowing users to compile a list of burgers they hope to eat and which from the list they have eaten using Express Handlebars.",
-    "deployed": "https://marykatewhite.github.io/eatdaburger/",
+    "deployed": "https://cryptic-basin-19409.herokuapp.com/",
     "github": "https://github.com/marykatewhite/eatdaburger",
-    "img": "/images/burgercard.png",
+    "img": "/images/eatdaburgersquare.png",
     "imgalt": "Eat-Da-Burger"
   }
 ]

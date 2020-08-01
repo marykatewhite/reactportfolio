@@ -23,10 +23,13 @@ button {
 }
 h4,
 h3 {
-  color: gray;
+  color: rgb(75, 75, 75);
 }
 a {
-  color: black;
+  color: rgb(70, 70, 70);
+}
+b {
+  color: rgb(80, 80, 80);
 }
 a:hover {
   font-size: 130%;
