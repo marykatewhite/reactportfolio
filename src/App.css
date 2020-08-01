@@ -31,6 +31,18 @@ a {
 b {
   color: rgb(80, 80, 80);
 }
+#resume {
+  padding-top: 40px;
+}
+#resumedownload {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 1.5em;
+  color: black;
+}
+#resumedownload:hover {
+  font-size: 180%;
+}
 a:hover {
   font-size: 130%;
   background-image: none !important;
@@ -105,7 +117,6 @@ a:hover {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-
 }
 
 .writingTitle {
@@ -133,15 +144,14 @@ a:hover {
 /* CONTENT STYLES */
 .carouselContentTitle {
   font-family: "Raleway", sans-serif;
-    text-align: center;
-    color: black;
-    font-size: 5em;
+  text-align: center;
+  color: black;
+  font-size: 5em;
 }
 .carouselIntroText {
   font-size: 1.5em;
   text-align: center;
 }
-
 
 @media (max-width: 500px) {
   #introBox {
@@ -226,7 +236,7 @@ a:hover {
     width: 90vw;
     text-align: center;
   }
-  .contentTitle {  
+  .contentTitle {
     font-family: "Raleway", sans-serif;
     font-size: 2em;
     color: black;
@@ -308,7 +318,7 @@ a:hover {
     width: 100%;
     text-align: center;
   }
-  .contentTitle {  
+  .contentTitle {
     font-family: "Raleway", sans-serif;
     font-size: 2em;
     color: black;
