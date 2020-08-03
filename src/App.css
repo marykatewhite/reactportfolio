@@ -239,11 +239,16 @@ b {
   }
   .contentTitle {
     font-family: "Raleway", sans-serif;
-    font-size: 2em;
+    font-size: 24px;
     color: black;
     padding-left: 10px;
     padding-right: 10px;
     vertical-align: top;
+  }
+  .contentTitle:hover {
+      font-size: 30px;
+      background-image: none !important;
+      text-decoration: none !important;
   }
 
 }
