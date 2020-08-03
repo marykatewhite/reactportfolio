@@ -25,7 +25,7 @@ function Content() {
 
       <div className="container-fluid" id="contentTypes">
         <div className="row">
-          <div className="col xs12 m4 justify-content-center contentColumn">
+          <div className="col xs12 m4 justify-content-center">
             <a href="/code">
               <div className="contentTitleBox justify-content-center">
                 <p className="contentTitle">
