@@ -43,11 +43,7 @@ b {
 #resumedownload:hover {
   font-size: 180%;
 }
-a:hover {
-  font-size: 130%;
-  background-image: none !important;
-  text-decoration: none !important;
-}
+
 .sectionLabel {
   align-content: center;
 }
@@ -163,6 +159,11 @@ a:hover {
     background-position: top;
     text-align: center;
   }
+  a:hover {
+    font-size: 2.5em;
+    background-image: none !important;
+    text-decoration: none !important;
+  }
   .jumbotron-fluid {
     height: 100%;
   }
@@ -253,6 +254,11 @@ a:hover {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;
+  }
+  a:hover {
+    font-size: 130%;
+    background-image: none !important;
+    text-decoration: none !important;
   }
   .jumbotron-fluid {
     height: 100%;
