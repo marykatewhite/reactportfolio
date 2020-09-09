@@ -23,18 +23,21 @@ function Content() {
         </div>
       </div>
 
-      <div className="container-fluid" id="contentTypes">
+
+      
+       <div className="container-fluid" id="contentTypes">
         <div className="row">
+
           <div className="col xs12 m4 justify-content-center">
-            <a href="/code">
+            <a href="/writing">
               <div className="contentTitleBox justify-content-center">
                 <p className="contentTitle">
-                  Programming
+                  Writing
                   <br />
-                  &amp; Code
+                  &amp; Editing
                 </p>
               </div>
-              <div className="contentImgBox" id="programmingBox"></div>
+              <div className="contentImgBox" id="writingBox"></div>
             </a>
           </div>
 
@@ -51,18 +54,22 @@ function Content() {
             </a>
           </div>
 
+
+
           <div className="col xs12 m4 justify-content-center">
-            <a href="/writing">
+            <a href="/code">
               <div className="contentTitleBox justify-content-center">
                 <p className="contentTitle">
-                  Writing
+                  Programming
                   <br />
-                  &amp; Editing
+                  &amp; Code
                 </p>
               </div>
-              <div className="contentImgBox" id="writingBox"></div>
+              <div className="contentImgBox" id="programmingBox"></div>
             </a>
           </div>
+
+        
         </div>
       </div>
     </div>
