@@ -1,8 +1,9 @@
 body {
-  background-image: url("./components/images/jumbobg.jpg");
+  /* background-image: url("./components/images/jumbobg.jpg");
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed; */
+  background-color: black;
 }
 p {
   color: #3c3c3d;
@@ -81,17 +82,21 @@ b {
 .projectrow {
   padding-bottom: 10px;
 }
-
 .writingBox {
   width: 80vw;
 }
 
 /* CONTENT PAGE STYLES */
+#codeAndContent {
+  width: 100vw;
+}
+
 #contentTypeBox {
   background-image: url("./components/images/jumbobg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  width: 100vw;
 }
 
 #contentTypes {
@@ -150,8 +155,9 @@ b {
 }
 
 @media (max-width: 500px) {
+
   #introBox {
-    width: 90vw;
+    width: 100vw;
     height: 100vh;
     background-image: url("./components/images/codeandcontentmobile.png");
     background-size: cover;
@@ -166,18 +172,22 @@ b {
   }
   .jumbotron-fluid {
     height: 100%;
+    width: 100vw;
+  }
+  #namebox {
+    width: 100%;
   }
   #myName {
     font-size: 3em;
     padding-top: 15px;
+    text-align: center;
   }
   #introText {
     font-size: 1.5em;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin: auto;
   }
   #codeAndContent {
-    width: 90vw;
+    width: 100vw;
     clear: both;
     margin: auto;
     text-align: center;
@@ -193,6 +203,7 @@ b {
     text-align: center;
     color: black;
     font-size: 4em;
+    line-height: .6em;
   }
   #andBox {
     display: block;
@@ -271,12 +282,12 @@ b {
   #myName {
     font-size: 6em;
     padding-top: 20px;
+    text-align: center;
   }
   #introText {
-    font-size: 1.5em;
+    font-size: 2em;
   }
   #codeAndContent {
-    clear: both;
     text-align: center;
   }
   #codeBox {
@@ -288,6 +299,7 @@ b {
     text-align: center;
     color: black;
     font-size: 6em;
+    line-height: .5em;
   }
   #andBox {
     display: block;
@@ -314,6 +326,7 @@ b {
     text-align: center;
     color: white;
     font-size: 6em;
+    line-height: .5em;
   }
   .contentColumn {
     width: 30vw;

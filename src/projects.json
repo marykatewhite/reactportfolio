@@ -1,6 +1,14 @@
 [
   {
     "id": 1,
+    "name": "Sculpture Total Skincare",
+    "description": "A simple and sleek Squarespace website built for a local skincare boutique. I totally overhauled their 23-year-old website and branding, incorporating a new logo,  new graphics, new color scheme and new technologies (including location and contact features). I only wish I had saved some 'before' pictures so you could appreciate the glow-up.",
+    "externallink": "https://www.sculpturetotalskincare.com",
+    "img": "/images/design/designsculpture.png",
+    "imgalt": "Sculpture Total Skincare"
+  },
+  {
+    "id": 2,
     "name": "Roll Call",
     "description": "Roll Call keeps track of students' locations and responsible caregivers throughout their day.",
     "deployed": "https://dashboard.heroku.com/apps/majozakidtracker",
@@ -18,7 +26,7 @@
     "imgalt": "CarFree"
   },
   {
-    "id": 2,
+    "id": 4,
     "name": "Friendango",
     "description": "Friendango is a social network for movie reviews with charts that analyze the popularity, average scores, and score distributions.",
     "deployed": "https://friendango.herokuapp.com/",
@@ -27,7 +35,7 @@
     "imgalt": "Friendango"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Eat-Da-Burger",
     "description": "An app allowing users to compile a list of burgers they hope to eat and which from the list they have eaten using Express Handlebars.",
     "deployed": "https://cryptic-basin-19409.herokuapp.com/",

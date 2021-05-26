@@ -16,8 +16,8 @@ function Jumbotron() {
           <div className="row justify-content-center">
             <div className="col-xs-12">
               <p id="introText">
-                An <b>editor,</b> <b>designer</b> and{" "}
-                <b>full-stack web developer.</b>
+                An <a href="/writing"><b>editor,</b></a> <a href="/design"><b>designer</b></a> and{" "}
+                <a href="/code"><b>full-stack web developer.</b></a>
               </p>
             </div>
           </div>
@@ -27,7 +27,7 @@ function Jumbotron() {
       <div className="container" id="codeAndContent">
         <div className="row">
           <div className="col-xs-12" id="codeBox">
-              <h1 id="codeWord">CODE</h1>
+              <a href="/code"><h1 id="codeWord">CODE</h1></a>
           </div>
         </div>
 
@@ -39,7 +39,7 @@ function Jumbotron() {
 
         <div className="row">
           <div className="col-xs-12" id="contentBox">
-              <h1 id="contentWord">CONTENT</h1>
+              <a href="/contentpage"><h1 id="contentWord">CONTENT</h1></a>
           </div>
         </div>
       </div>
